@@ -516,7 +516,6 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -847,7 +846,21 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
+}
+
+.img-responsive{
+width: 100%;
+}
+
+.form-group
+{
+    font-size: 18px;
+}
+
+label{
+    font-weight: bold !important;
+    color: #000000 !important;
 }
 
 #citation{
@@ -862,6 +875,10 @@ h4 {
     justify-content: center;
     padding-top: 40px;
     padding-bottom: 30px;
+}
+
+#localisation{
+    text-align: end;
 }
 
 @media (max-width: 1024px) {
