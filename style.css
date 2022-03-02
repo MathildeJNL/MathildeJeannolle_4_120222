@@ -45,7 +45,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 50px 50px;
 }
 
 .bloc-md {
@@ -325,7 +325,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -677,11 +677,11 @@ a {
 }
 
 p {
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    width: 100%;
     margin: auto auto auto auto;
 }
 
@@ -716,12 +716,12 @@ p {
 
 
 h2 {
-    font-size: 22px;
+    font-size: 30px;
     line-height: 1.4em;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -848,6 +848,20 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
+}
+
+#citation{
+    font-style: italic;
+    font-size: 17px;
+}
+
+#title-bloc6{
+    color: #000000 !important;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
 
 @media (max-width: 1024px) {
